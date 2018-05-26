@@ -562,37 +562,37 @@ font-family: brandon-regular;
 }
 
 .clients_speech {
-    background-image: url(../img/speech1.jpg);
+    background: url(../img/speech1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 510px;
-    float: left;
-    margin: 62.5px 0px;
-    margin-left: 120px;
+    width: 665px;
+    height: 175px;
+    float: right;
+    margin-top: 35px;
 }
 
 .clients_speech2 {
-    background-image: url(../img/speech2.jpg);
+    background: url(../img/speech2.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100px;
-    width: 510px;
-    float: right;
-    margin: 62.5px 0px;
-    margin-right: 120px;
-
+    width: 665px;
+    height: 155px;
+    float: left;
+    margin-top: 35px;
 }
+
 .speech {
     font-family: brandon-regular;
     font-size: 26px;
     color: #777777;
+    width: 520px;
+    margin-left: 75px;
+    margin-top: 25px;
 }
 
 .clients_identity {
     font-family: brandon-regular;
     font-size: 18px;
     margin-top: 9px;
+    margin-left: 75px;
 }
 
 .clients_identity a{
