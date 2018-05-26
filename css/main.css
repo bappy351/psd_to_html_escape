@@ -1,0 +1,1100 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*
+font-family: brandon-medium;
+font-family: cunabo;
+font-family: brandon-light;
+font-family: brandon-bold;
+font-family: brandon-regular;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(../fonts/Brandon_med.otf);
+    font-family: brandon-medium;
+}
+
+@font-face {
+    src: url(../fonts/Cubano-Regular.ttf);
+    font-family: cunabo;
+}
+
+@font-face {
+    src: url(../fonts/Brandon_light.otf);
+    font-family: brandon-light;
+}
+
+@font-face {
+    src: url(../fonts/Brandon_bld.otf);
+    font-family: brandon-bold;
+}
+
+@font-face {
+    src: url(../fonts/Brandon_reg.otf);
+    font-family: brandon-regular;
+}
+
+
+
+/*header starts*/
+
+.header {
+/*    width: 1400px;*/
+    margin: 0 auto;
+    height: 620px;
+    background-image: url(../img/header_background_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.wrapper1 {
+    height: 620px;
+    background-image: url(../img/Escape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper2{
+    width: 970px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.logo_nav {
+    height: 45px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.logo {
+    float: left;
+    overflow: hidden;
+}
+
+.logo img{
+    float: left;
+    margin-top: 4px;
+    margin-right: 7px;
+}
+
+.logo h1{
+    float: left;
+    font-family: cunabo;
+    font-weight: normal;
+    font-size: 24.84px;
+    margin: 0;
+    color: white;
+    letter-spacing: 3px;
+    
+}
+
+.menubar {
+    width: 370px;
+    float: right;
+}
+
+.menubar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.menubar ul li{
+    float: left;
+    
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: brandon-medium;
+    font-size: 18px;
+    padding: 8px 12.5px; 
+}
+
+.menubar ul li:last-child a {
+    padding-right: 0px;
+}
+
+.title {
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 120px;
+}
+
+.title_qstn {
+    font-family: brandon-light;
+    font-size: 32px;
+    color: #d5d3d9;
+    margin-bottom: 21px;
+}
+
+.title_caption {
+    font-family: brandon-bold;
+    font-size: 65px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.button {
+    margin-top: 70px;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    font-family: brandon-bold;
+    color: white;
+    background: transparent;
+    font-size: 23px;
+    width: 238px;
+    height: 64px;
+}
+
+/*header ends*/
+
+
+
+
+
+/*section two starts*/
+.web_development {
+    /*    width: 1400px;*/
+    margin: 0 auto;
+    height: 450px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.wrapper3 {
+    width: 860px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.description {
+    float: left;
+    text-align: left;
+    width: 530px;
+    height: 250px;
+}
+
+.description h1{
+    margin: 0;
+    font-family: brandon-light;
+    font-weight: 300;
+    font-size: 60px;
+    color: black;
+    width: 460px;
+    height: 80px;
+}
+
+.black_bold{
+    font-family: brandon-bold;
+    color: black;
+}
+
+.description_txt {
+    margin-top: 25px;
+    width: 530px;
+    height: 65px;
+    font-family: brandon-regular;
+    color: #777777;
+}
+
+.description_txt2{
+    margin-top: 40px;
+    width: 530px;
+    height: 45px;
+    font-family: brandon-regular;
+    color: #777777;
+    
+}
+
+.linking {
+    float: left;
+    width: 230px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.linking img{
+    height: 225px;
+    width: 215px;
+}
+
+.identity_branding{
+   /*    width: 1400px;*/
+    margin: 0 auto;
+    height: 450px;
+    background-color: #fafafa;
+    overflow: hidden;
+
+}
+
+.linking2 {
+    float: left;
+    width: 270px;
+    margin-right: 60px;
+    margin-top: 22px;
+}
+
+.linking2 img{
+    height: 200px;
+    width: 270px;
+}
+
+/*section two ends*/
+
+/*section three starts*/
+
+.services{
+    /*    width: 1400px;*/
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+.services_left{
+    width: 380px;
+    height: 420px;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.services_right{
+    width: 380px;
+    height: 420px;
+    overflow: hidden;
+    float: left;
+    margin-left: 100px;
+}
+
+.single_service{
+    height: 110px;
+    overflow: hidden;
+    margin-bottom: 45px;
+    
+}
+
+.logo_icon{
+    width: 75px;
+    margin-right: 17px;
+    float: left;
+    
+}
+
+.icon_background{
+    height: 75px;
+    background-color: #222222;
+    border-radius: 40px;
+    
+}
+
+.service_icon{
+    color: #ffffff;
+    font-size: 45px;
+    padding-top: 13px;
+    padding-left: 27px;
+    
+}
+
+.service_icon2{
+    padding-top: 18px;
+    padding-left: 20px;
+    
+}
+
+.service_icon3{
+    padding-top: 16px;
+    padding-left: 15px;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.service_icon4{
+    padding-top: 19px;
+    padding-left: 15px;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.service_icon5{
+    padding-top: 18px;
+    padding-left: 16px;
+    color: white;
+    font-size: 40px;
+    
+    
+}
+
+.service_icon6{
+    padding-top: 16px;
+    padding-left: 15px;
+    color: white;
+    font-size: 40px;
+    
+}
+
+.service_description{
+    width: 288px;
+    overflow: hidden;
+    height: 110px;
+    float: left;
+}
+
+.service_name{
+    width: 288px;
+    height: 30px;
+}
+
+.service_name h1{
+    font-family: brandon-medium;
+    font-weight: bold;
+    font-size: 21px;
+    color: #222222;
+    margin: 0;
+}
+
+.service_name p{
+    height: 70px;
+    width: 288px;
+    font-family: brandon-regular;
+    font-weight: 300;
+    font-size: 17px;
+    color: #777777;
+    margin-top: 10px;
+    
+}
+/*section three ends*/
+
+
+
+/*section four stars*/
+
+.testimonial{
+    /*    width: 1400px;*/
+    margin: 0 auto;
+    background-color: #fafafa;
+    overflow: hidden;
+    
+}
+
+.wrapper4 {
+    width: 940px;
+    overflow: hidden;
+    margin: 95px auto;
+    
+}
+
+.testimoinal_heading {
+    width: 530px;
+    height: 105px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.testimoinal_heading h1{
+    margin: 0;
+    font-family: brandon-light;
+    font-size: 60px;
+    font-weight: 300;
+    color: #222222;
+    height: 75px;
+    
+}
+
+.bold_clients {
+    font-family: brandon-bold;
+    color: black;
+}
+
+.testimoinal_heading p{
+    font-family: brandon-regular;
+    font-size: 21px;
+    color: #777777;
+}
+
+.clients {
+    height: 225px;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.clients2{
+    height: 225px;
+    overflow: hidden;
+    margin-top: 35px;
+}
+
+.client_pic {
+    width: 225px;
+    height: 225px;
+    float: left;
+    background-color: #111111;
+    border-radius: 116px;
+}
+
+.client_pic2{
+    width: 225px;
+    height: 225px;
+    float: right;
+    background-color: #111111;
+    border-radius: 116px;
+}
+
+.clients_speech {
+    height: 100px;
+    width: 510px;
+    float: left;
+    margin: 62.5px 0px;
+    margin-left: 120px;
+}
+
+.clients_speech2 {
+    height: 100px;
+    width: 510px;
+    float: right;
+    margin: 62.5px 0px;
+    margin-right: 120px;
+
+}
+.speech {
+    font-family: brandon-regular;
+    font-size: 26px;
+    color: #777777;
+}
+
+.clients_identity {
+    font-family: brandon-regular;
+    font-size: 18px;
+    margin-top: 9px;
+}
+
+.clients_identity a{
+    text-decoration: none;
+    color: #7690c5;
+}
+/*section four ends*/
+
+
+
+/*partners sections starts*/
+.partners {
+    /*    width: 1400px;*/
+    height: 170px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.wrapper_5 {
+    width: 870px;
+    margin: 60px auto;
+    overflow: hidden;
+    
+}
+
+.wrapper_5 a img {
+    margin: 0 22px;
+}
+
+/*partners sections ends*/
+
+
+
+/*team section starts*/
+.team{
+    /*    width: 1400px;*/
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #111111;
+}
+
+.wrapper6{
+    width: 895px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.team_heading {
+    width: 530px;
+    height: 105px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 75px;
+    
+}
+
+.team_heading h1{
+    margin: 0;
+    font-family: brandon-light;
+    font-size: 60px;
+    font-weight: 300;
+    color: #ffffff;
+    height: 75px;
+    
+}
+
+.bold_team {
+    font-family: brandon-bold;
+    color: #ffffff;
+}
+
+.team_heading p{
+    font-family: brandon-regular;
+    font-size: 21px;
+    color: #777777;
+}
+
+.team_members{
+    height: 365px;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.single_member{
+    width: 241px;
+    height: 365px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    margin-right: 85px;
+    
+}
+
+.member_pic{
+    height: 225px;
+    width: 225px;
+    border: 8px solid white;
+    border-radius: 125px;
+}
+
+
+.member_name{
+    font-family: brandon-bold;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.member_work{
+    font-family: brandon-regular;
+    font-size: 16px;
+    color: #a2a2a2;
+    margin-bottom: 10px;
+}
+
+.member_social{
+    width: 180px;
+    height: 52px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.member_social2{
+    
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+.social{
+    height: 42px;
+    width: 41px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin-left: 10px;
+    
+}
+
+.social_icon{
+    color: white;
+    font-size: 22px;
+    margin-top: 9px;
+}
+
+
+.team_description{
+    width: 600px;
+    height: 65px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team_description p{
+    font-family: brandon-regular;
+    font-size: 20px;
+    color: #a2a2a2;
+}
+
+
+/*team section ends*/
+
+
+
+/*footer start*/
+
+.footer {
+    /*    width: 1400px;*/
+    margin: 0 auto;
+    background-color: #7690c5;
+    overflow: hidden;
+    
+}
+
+.wrapper7 {
+    width: 970px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+
+.footer_left {
+    width: 510px;
+    float: left;
+}
+
+.footer_heading {
+    text-align: left;
+    width: 425px;
+    overflow: hidden;
+}
+
+.footer_heading h1 {
+    font-family: brandon-light;
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0;
+    color: #ffffff;
+}
+
+.bold_hello {
+    font-family: brandon-bold;
+    color: #ffffff;
+}
+
+
+.footer_heading p {
+    font-family: brandon-light;
+    font-size: 18px;
+    margin-top: 15px;
+    height: 50px;
+    margin-bottom: 5px;
+    color: #ffffff;
+    
+}
+
+.contact_info {
+    height: 240px;
+    overflow: hidden;
+}
+
+
+.single_info {
+    width: 200px;
+    height: 31px;
+    float: left;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-right: 55px;
+}
+
+.info_icon{
+    color: white;
+    font-size: 25px;
+    float: left;
+    
+}
+
+
+.info_txt{
+    font-size: 18px;
+    font-family: brandon-light;
+    color: #ffffff;
+    margin-left: 15px;
+    float: left;
+}
+
+
+
+
+
+.footer_right {
+    width: 460px;
+    float: left;
+}
+
+
+.form_group{
+    overflow: hidden;
+}
+
+.your_name {
+    height: 54px;
+    border: 0.5px solid #9eacc8;
+    border-radius: 4px;
+    width: 440px;
+    padding-left: 20px;
+    font-family: brandon-light;
+    font-size: 18px;
+}
+
+.your_email {
+    height: 54px;
+    margin-top: 32px;
+    border: 0.5px solid #9eacc8;
+    border-radius: 4px;
+    width: 440px;
+    padding-left: 20px;
+    font-family: brandon-light;
+    font-size: 18px;
+}
+
+.your_massage {
+    height: 255px;
+    margin-top: 25px;
+    border: 0.5px solid #9eacc8;
+    border-radius: 4px;
+    width: 440px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: brandon-light;
+    font-size: 18px;
+}
+
+.footer_end {
+    width: 950px;
+    margin: 0 auto;
+    height: 80px;
+    overflow: hidden;
+    border-top: 0.5px solid #87a0d2 ;
+}
+
+.footer_end p {
+    font-family: brandon-light;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    margin: 31px auto;
+}
+
+/*footer end*/
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
