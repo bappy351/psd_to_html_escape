@@ -151,8 +151,6 @@ font-family: brandon-regular;
 /*header starts*/
 
 .header {
-    width: 1400px;
-    margin: 0 auto;
     height: 620px;
     background-image: url(../img/header_background_img.jpg);
     background-repeat: no-repeat;
@@ -274,8 +272,6 @@ font-family: brandon-regular;
 
 /*section two starts*/
 .web_development {
-    width: 1400px;
-    margin: 0 auto;
     background-color: #ffffff;
 }
 
@@ -361,8 +357,6 @@ font-family: brandon-regular;
 /*section three starts*/
 
 .services{
-    width: 1400px;
-    margin: 0 auto;
     background-color: white;
     overflow: hidden;
 }
@@ -488,8 +482,6 @@ font-family: brandon-regular;
 /*section four stars*/
 
 .testimonial{
-    width: 1400px;
-    margin: 0 auto;
     background-color: #fafafa;
     overflow: hidden;
     
@@ -604,8 +596,6 @@ font-family: brandon-regular;
 
 /*partners sections starts*/
 .partners {
-    width: 1400px;
-    margin: 0 auto;
     height: 170px;
     overflow: hidden;
     background-color: #ffffff;
@@ -628,8 +618,6 @@ font-family: brandon-regular;
 
 /*team section starts*/
 .team{
-    width: 1400px;
-    margin: 0 auto;
     overflow: hidden;
     background-color: #111111;
 }
@@ -761,8 +749,6 @@ font-family: brandon-regular;
 /*footer start*/
 
 .footer {
-    width: 1400px;
-    margin: 0 auto;
     background-color: #7690c5;
     overflow: hidden;
     
